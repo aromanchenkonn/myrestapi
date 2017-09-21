@@ -24,7 +24,7 @@ public class SampleTestCase {
 
     @Test
     public void testFollowers() {
-        User[] followers = userController.getFollowersByUser("aromanchenkonn");
+        User[] followers = userController.getFollowersByUser("Mak0");
         assertTrue(followers.length == 0);
     }
 }
